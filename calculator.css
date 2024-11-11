@@ -1,0 +1,48 @@
+.bg_color_grey{
+    background-color: grey;
+    width: 50vh;
+    border-radius: 10px;
+    height: 63vh;
+    
+    
+}
+.header{
+    
+    background-color: white;
+    width:45vh;
+    height:70px;
+    border-radius: 5px;
+
+ 
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.clear{
+    background-color:rgb(244, 140, 140);
+    width:23vh ;
+    height: 45px;
+    border-radius: 5px;
+
+}
+.delete{
+    background-color: lightblue;
+    width: 23vh;
+    height: 45px;
+    border-radius: 5px;
+
+}
+.padding{
+    padding-top:10px;
+    padding-bottom:10px ;
+ 
+
+}
+.number_buttons{
+    width: 11vh;
+    height: 45px;
+    border-radius: 5px;
+}
+
