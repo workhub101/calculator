@@ -11,50 +11,52 @@
         <p></p>
         <div class="center padding">
             <div>
-                <input type="submit" class="header" width="" value="0">
+                <input type="submit" class="header" width="" value="" id="display">
             </div>
 
             
         </div> 
         <div class="center">
             <div>
-                <input type="submit" value="Clear" class="clear">
-                <input type="submit" value="Delete" class="delete">
+                <input type="button" value="clear" class="clear" onclick="clearDisplay()">
+                <input type="button" value="delete" class="delete" onclick="deleteLastValue()" >
             </div>
         </div> 
         <div class="center padding">
             <div>
-                <input type="submit" value="7" class="number_buttons">
-                <input type="submit" value="8" class="number_buttons">
-                <input type="submit" value="9" class="number_buttons">
-                <input type="submit" value="/" class="number_buttons">
+                <input type="button" value="7" class="number_buttons" onclick="append('7')">
+                <input type="button" value="8" class="number_buttons" onclick="append('8')">
+                <input type="button" value="9" class="number_buttons" onclick="append('9')">
+                <input type="button" value="/" class="number_buttons" onclick="append('/')">
             </div>
         </div>
         <div class="center">
             <div>
-                <input type="submit" value="4" class="number_buttons">
-                <input type="submit" value="5" class="number_buttons">
-                <input type="submit" value="6" class="number_buttons">
-                <input type="submit" value="*" class="number_buttons">
+                <input type="button" value="4" class="number_buttons" onclick="append('4')">
+                <input type="button" value="5" class="number_buttons" onclick="append('5')">
+                <input type="button" value="6" class="number_buttons" onclick="append('6')">
+                <input type="button" value="*" class="number_buttons" onclick="append('*')">
             </div>
         </div>
         <div class="center padding">
             <div>
-                <input type="submit" value="1" class="number_buttons">
-                <input type="submit" value="2" class="number_buttons">
-                <input type="submit"  value="3" class="number_buttons">
-                <input type="submit" value="-" class="number_buttons">
+                <input type="button" value="1" class="number_buttons" onclick="append('1')">
+                <input type="button" value="2" class="number_buttons" onclick="append('2')">
+                <input type="button"  value="3" class="number_buttons" onclick="append('3')">
+                <input type="button" value="-" class="number_buttons" onclick="append('-')">
             </div>
         </div>
         <div class="center ">
             <div>
-                <input type="submit" value="." class="number_buttons">
-                <input type="submit" value="0" class="number_buttons">
-                <input type="submit" value="=" class="number_buttons">
-                <input type="submit" value="+" class="number_buttons">
+                <input type="button" value="." class="number_buttons" onclick="append('.')">
+                <input type="button" value="0" class="number_buttons" onclick="append('0')">
+                <input type="button" value="=" class="number_buttons" onclick="calculate()">
+                <input type="button" value="+" class="number_buttons" onclick="append('+')">
             </div>
         </div>
 
    </div> 
+  
 </body>
+    <script src="./calculator.js"></script>
 </html>
