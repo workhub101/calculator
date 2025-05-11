@@ -9,6 +9,7 @@ function calculate(){
     catch{
         document.getElementById("display")
         alert("error")
+        clearDisplay()
     }
 }
 function clearDisplay(){
